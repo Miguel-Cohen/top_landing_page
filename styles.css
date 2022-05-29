@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');   
+
+/* * {
+    border: 1px solid red;
+} */
+
+body {
+    margin: 0px;
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: Roboto, sans-serif;
+}
+
+#first {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 1vw 10vw;
+    background-color: #1f2937;
+    justify-content: space-between;
+    padding-top: 8vw;
+    gap: 16px;
+}
+
+.nav {
+    background-color: #1f2937;
+    padding: 1.5vw 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+div ul,
+a {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.nav-left {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.nav-right ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: 100;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    padding: 8px 40px;
+    border: 0px;
+    font-weight: 600;
+    margin-top: auto;
+    max-width: 11vw;
+    
+}
+
+#first .text {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+}
+
+#first div {
+}
+
+#first img {
+    max-width: 400px;
+}
