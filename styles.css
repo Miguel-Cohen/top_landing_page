@@ -11,10 +11,12 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+/* First Section start*/
+
 #first {
     display: flex;
     flex-flow: row nowrap;
-    padding: 1vw 10vw;
+    padding: 8vw 10vw;
     background-color: #1f2937;
     justify-content: space-between;
     padding-top: 8vw;
@@ -66,15 +68,16 @@ h2 {
     color: #E5E7EB;
 }
 
-button {
+#first button {
     background-color: #3882F6;
     color: #E5E7EB;
     border-radius: 8px;
     padding: 8px 40px;
     border: 0px;
     font-weight: 600;
+    font-size: 20px;
     margin-top: auto;
-    max-width: 11vw;
+    max-width: 13vw;
     
 }
 
@@ -84,9 +87,140 @@ button {
     justify-content: flex-start;
 }
 
-#first div {
-}
-
 #first img {
     max-width: 400px;
+}
+
+/* First Section End */
+/* Second Section start */
+
+#second {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 1em 0px;
+}
+
+.info-content {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 3vw;
+    align-items: flex-start;
+    margin-bottom: 5em;
+}
+
+#second img {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+
+.info-child {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    max-width: 100px;
+    min-width: 200px;
+    text-align: center;
+}
+
+.img-description {
+    font-size: 18px;
+}
+
+/* Second Section end */
+/* Third Section start */
+
+#third {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 5vw 15vw;
+}
+
+.testimonial-container {
+    flex-flow: column nowrap;
+}
+
+.testimonial {
+    font-size: 32px; 
+    font-style: italic ;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.signature {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+/* Third Section end */
+/* Fourth Section start */
+
+#fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4vw 10vw;
+}
+
+.action-container {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 80vw;
+    background-color: #3882F6;
+    padding: 3vw 6vw;
+    justify-content: space-between;
+}
+
+.action-container .left {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.call-action {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.sub-call {
+    font-size: 20px;
+    color: #F9FAF8;
+}
+
+#fourth button {
+    align-self: center;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    padding: 8px 20px;
+    border: 2px solid #F9FAF8;
+    font-weight: 600;
+    font-size: 20px;
+    max-height: 4vw;
+    width: 12vw;
+}
+
+/* Fourth Section end */
+/* Footer start */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw 0px;
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
